@@ -1,0 +1,48 @@
+                          +-------------------------------------+
+                          |         Data Collection           |
+                          |  (Clinical Trials, Bioanalysis)   |
+                          +-------------------------------------+
+                                      |
+                                      v
+                          +-------------------------------------+
+                          |     Clinical Data Management       |
+                          | (Cleaning & Preprocessing Data)   |
+                          +-------------------------------------+
+                                      |
+                                      v
+                          +-------------------------------------+
+                          |         STDM Team                 |
+                          |  (Convert raw data to SDTM)       |
+                          +-------------------------------------+
+                                      |
+             +------------------------+------------------------+
+             |                         |                        |
+             v                         v                        v
+ +----------------------+  +----------------------+  +----------------------+
+ |   SDTM Datasets      |  |   SDTM Datasets      |  |   SDTM Datasets      |
+ | (EX, PC, PP for PKPD)|  | (LB, VS, AE for     |  | (Other Clinical Data)|
+ |                      |  | safety & efficacy)  |  |                      |
+ +----------------------+  +----------------------+  +----------------------+
+             |                         |                        |
+             v                         v                        |
+ +----------------------+  +----------------------+            |
+ |     PKPD Team        |  |       ADaM Team      |            |
+ | (PK & PD Modeling,   |  | (Transforms SDTM     |            v
+ | Dose-Response, etc.) |  |  data to ADaM)       |   +----------------------+
+ +----------------------+  +----------------------+   |  Biostatistics Team   |
+             |                         |             | (Final Statistical    |
+             |                         |             | Analysis & Reports)   |
+             v                         v             +----------------------+
+ +----------------------+  +----------------------+
+ |  PKPD Models         |  |  ADaM Datasets       |
+ | (Exposure-Response,  |  | (Efficacy, Safety,  |
+ | Simulations)         |  | PKPD integration)   |
+ +----------------------+  +----------------------+
+             |                         |
+             +-------------------------+
+                          |
+                          v
+         +--------------------------------------+
+         |   Regulatory Submission (FDA, EMA)  |
+         | (PKPD, ADaM, Statistical Reports)   |
+         +--------------------------------------+
